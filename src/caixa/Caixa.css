@@ -6,12 +6,12 @@
     position: absolute;
     z-index: 10;
     width: 400px;
-    height: 440px;
+    height: 400px;
     background: #eee;
     top: 50%;
     left: 50%;
-    margin: -220px 0 0 -200px;
-    padding: 30px;
+    margin: -200px 0 0 -200px;
+    padding: 35px;
     border-radius: 40px;
     box-sizing: border-box;
     z-index: 100;
@@ -32,4 +32,10 @@ h2{
     font-size: 16px;
     margin: 4px 22px 2px;
     cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: black; /* Green */
+    color: white;
 }
